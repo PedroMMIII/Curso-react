@@ -1,0 +1,20 @@
+.social-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.social-list li {
+    margin: 0 1em;
+}
+
+.social-list svg {
+    font-size: 1.5em;
+    cursor: pointer;
+    transition: all .3s linear;
+}
+
+.social-list svg:hover {
+    transform: translateY(-15%);
+} 
